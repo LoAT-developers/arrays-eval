@@ -62,11 +62,12 @@
     <h2>Results</h2>
 
     <a href="./sv.html">Here</a> you can find a table with the detailed results of our benchmarks on the examples <tt>SV</tt>, and <a href="./neg_sv.html">here</a> you can find a table with the detailed results of our benchmarks on the examples <tt>neg_SV</tt>.
+    Unique results (where all but one solver failed) are highlighted in yellow.
 
-    <h1>Example from the Paper</h1>
+    <h1>Running Example from the Paper</h1>
 
     <p>
-      <a href="./leading.smt2">Here</a> you can find a satisfiable version of the leading exmaple from our paper, where the following two properties are checked:
+      <a href="./leading.smt2">Here</a> you can find a satisfiable version of the running exmaple from our paper, where the following two properties are checked:
       <ul>
         <li><tt>a'[k] = a[0]</tt></li>
         <li><tt>forall 0 <= j < k. a'[j] = a[j+1]</tt></li>
@@ -74,7 +75,7 @@
       In the formulas above, <tt>a</tt> refers to the array before execution of the loop, and <tt>a'</tt> refer to the array after execution of the loop.
       <br/>
 
-      <a href="./leading_unsat1.smt2">Here</a> and <a href="./leading_unsat2.smt2">here</a>, you can find unsatisfiable variants of our leading examples, where the first or second of the properties above is negated, respectively.
+      <a href="./leading_unsat1.smt2">Here</a> and <a href="./leading_unsat2.smt2">here</a>, you can find unsatisfiable variants of our running examples, where the first or second of the properties above is negated, respectively.
       LoAT can solve all three variants in less than one second.
     </p>
 
