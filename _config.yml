@@ -1,0 +1,11 @@
+title: <img src="./logo.svg" alt="LoAT">
+email: florian.frohn@cs.rwth-aachen.de
+description: >- # this means to ignore newlines until "baseurl:"
+  We present Transitive Relation Learning (TRL).
+  It embeds recurrence analysis into BMC, resulting in a robust and competitive model checking algorithm.
+  The key insight is that the diameter of the analyzed system can often be made finite by adding transitive relations, which can be deduced via recurrence analysis.
+  Then, our approach can prove safety by unrolling the system until its diameter is reached.
+github_username:  ffrohn
+theme: jekyll-theme-cayman
+github:
+  is_project_page: false
