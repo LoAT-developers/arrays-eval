@@ -61,7 +61,7 @@
 
     <h2>Results</h2>
 
-    <a href="./table.html">Here</a> you can find a table with the detailed results of our benchmarks.
+    <a href="./sv.html">Here</a> you can find a table with the detailed results of our benchmarks on the examples <tt>SV</tt>, and <a href="./neg_sv.html">here</a> you can find a table with the detailed results of our benchmarks on the examples <tt>neg_SV</tt>.
 
     <h1>Example from the Paper</h1>
 
@@ -71,10 +71,12 @@
         <li><tt>a'[k] = a[0]</tt></li>
         <li><tt>forall 0 <= j < k. a'[j] = a[j+1]</tt></li>
       </ul>
+      In the formulas above, <tt>a</tt> refers to the array before execution of the loop, and <tt>a'</tt> refer to the array after execution of the loop.
+      <br/>
+
       <a href="./leading_unsat1.smt2">Here</a> and <a href="./leading_unsat2.smt2">here</a>, you can find unsatisfiable variants of our leading examples, where the first or second of the properties above is negated, respectively.
       LoAT can solve all three variants in less than one second.
     </p>
 
   </body>
 </html>
-
