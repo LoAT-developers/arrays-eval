@@ -72,9 +72,10 @@
         <li><tt>a'[k] = a[0]</tt></li>
         <li><tt>forall 0 <= j < k. a'[j] = a[j+1]</tt></li>
       </ul>
-      In the formulas above, <tt>a</tt> refers to the array before execution of the loop, and <tt>a'</tt> refer to the array after execution of the loop.
-      <br/>
+      In the formulas above, <tt>a</tt> refers to the array before execution of the loop, and <tt>a'</tt> refers to the array after execution of the loop.
+    </p>
 
+    <p>
       <a href="./leading_unsat1.smt2">Here</a> and <a href="./leading_unsat2.smt2">here</a>, you can find unsatisfiable variants of our running examples, where the first or second of the properties above is negated, respectively.
       LoAT can solve all three variants in less than one second.
     </p>
