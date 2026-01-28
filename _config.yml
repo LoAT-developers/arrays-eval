@@ -1,10 +1,16 @@
 title: <img src="./logo.svg" alt="LoAT">
 email: florian.frohn@cs.rwth-aachen.de
 description: >- # this means to ignore newlines until "baseurl:"
-  We present Transitive Relation Learning (TRL).
-  It embeds recurrence analysis into BMC, resulting in a robust and competitive model checking algorithm.
-  The key insight is that the diameter of the analyzed system can often be made finite by adding transitive relations, which can be deduced via recurrence analysis.
-  Then, our approach can prove safety by unrolling the system until its diameter is reached.
+  We propose a novel acceleration technique for single-path
+  loops operating on arrays. The goal of acceleration is to characterize
+  the transitive closure of loops in a logic which is suitable for automated
+  reasoning. Compared to earlier approaches, our first contribution is the
+  novel notion of inductive lvalues, which allows us to handle array-loops
+  where previous techniques fail, and to unify acceleration for arrays and
+  scalar variables by regarding scalars as arrays of dimension 0. Moreover,
+  we propose the use of λs instead of quantifiers in the resulting formulas to
+  facilitate automated reasoning. Then the corresponding SMT problems
+  can be solved with a refinement loop in the spirit of lemmas on demand.
 github_username:  ffrohn
 theme: jekyll-theme-cayman
 github:
