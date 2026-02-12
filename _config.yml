@@ -1,16 +1,15 @@
 title: <img src="./logo.svg" alt="LoAT">
 email: florian.frohn@cs.rwth-aachen.de
 description: >- # this means to ignore newlines until "baseurl:"
-  We propose a novel acceleration technique for single-path
-  loops operating on arrays. The goal of acceleration is to characterize
-  the transitive closure of loops in a logic which is suitable for automated
-  reasoning. Compared to earlier approaches, our first contribution is the
-  novel notion of inductive lvalues, which allows us to handle array-loops
-  where previous techniques fail, and to unify acceleration for arrays and
-  scalar variables by regarding scalars as arrays of dimension 0. Moreover,
-  we propose the use of λs instead of quantifiers in the resulting formulas to
-  facilitate automated reasoning. Then the corresponding SMT problems
-  can be solved with a refinement loop in the spirit of lemmas on demand.
+  We propose a novel acceleration technique for loops operating
+  on arrays. The goal of acceleration is to characterize the transitive closure
+  of loops in a logic which is suitable for automated reasoning. Using the
+  new notion of inductive lvalues, our technique can handle loops where
+  previous techniques fail, and it unifies acceleration for arrays and scalar
+  variables by regarding scalars as arrays of dimension 0. Moreover, our
+  approach uses λs instead of quantifiers. Then the resulting SMT problems
+  can be solved via lemmas on demand. An empirical evaluation of our
+  implementation in the tool LoAT shows the power of our approach.
 github_username:  ffrohn
 theme: jekyll-theme-cayman
 github:
