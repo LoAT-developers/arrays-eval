@@ -44,6 +44,10 @@
       <ul>
         <li><tt>loat-static --mode safety --engine abmc $INPUT</tt></li>
       </ul>
+      <li>LoAT's implementation of Accelerated Bounded Model Checking <i>without</i> our novel acceleration technique as baseline</li>
+      <ul>
+        <li><tt>loat-static --mode safety --engine abmc --accel::arrays false $INPUT</tt></li>
+      </ul>
       <li><a href="https://github.com/Z3Prover/z3">Z3</a>'s implementation of <i>Bounded Model Checking</i> (version 4.15.4)</li>
       <ul>
         <li><tt>z3 fp.engine=bmc $INPUT</tt></li>
