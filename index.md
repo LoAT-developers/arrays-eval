@@ -11,7 +11,7 @@
   <body>
 
     <p>
-      This is the empirical evaluation of the implementation of our techniques from the paper <a href="https://arxiv.org/abs/???"><i>Accelerating Loops with Arrays</i></a> in our tool LoAT.
+      This is the empirical evaluation of the implementation of our techniques from the paper <a href="main.pdf"><i>Accelerating Loops with Arrays</i></a> in our tool LoAT.
     </p>
 
     <h1>Getting LoAT</h1>
